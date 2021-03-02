@@ -96,11 +96,11 @@ platforms:
       image: saltimages/salt-master-py3:oraclelinux-7
   - name: gentoo-stage3-latest-master-py3
     driver:
-      image: saltimages/salt-master-py3:gentoo-stage3-latest
+      image: myii/salt-master-py3:gentoo-stage3-latest
       run_command: /sbin/init
   - name: gentoo-stage3-systemd-master-py3
     driver:
-      image: saltimages/salt-master-py3:gentoo-stage3-systemd
+      image: myii/salt-master-py3:gentoo-stage3-systemd
 
   ## SALT `3002.2`
   - name: debian-10-3002-2-py3
